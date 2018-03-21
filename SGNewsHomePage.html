@@ -1,0 +1,217 @@
+<html>
+<head>
+    <title>ISSS 609 - Text Analytics and Applications Project - Group 2 </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="Scripts/d3.min.js"></script>
+</head>
+<style>
+#footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #6c757d;
+   color: white;
+   text-align: center;
+   height:50px;
+   font-size:18px;
+}
+</style>
+<body onload="GenerateArticles()">
+<!-- Common header section-->
+<div style="background-color:#6c757d;text-align:center;vertical-align:center;padding:3px;color:White;">   
+    <span style="text-align:center;"><h2>Welcome to the SG News Portal!</h2></span>
+</div>
+
+
+<!--Body Section-->
+<div class="mainbody_content" style="padding-top:10px;">
+<div class="dropdown" style="margin-left:5%;padding-top:10px;">
+    <div>
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" style="background-color:#6c757d;border-color:#6c757d;">
+            <span style="padding-right:5px;">Existing or New User?</span>
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a onclick="DisplayUserSelection('existing')">Existing User</a></li>
+          <li><a onclick="DisplayUserSelection('new')">New User</a></li>
+        </ul>
+    </div>
+</div> 
+<div id="divExistingUsers" style="padding-top:25px;margin-left:10%;display:none;">
+    <div style=padding-bottom:25px;">
+        <span style="padding-right:3%; font-size:16px;">Please select your User Name?</span>
+        <select id="ddlUsers">
+        </select>
+    </div>
+    <div style="width:50%;padding-top:10px;float:left;padding-right:10%;">
+       <div style="width:80%;float:left;">
+            <h3>Recommended Articles for you:</h3>
+            <span style="padding-top:10px;">
+                <ul class="list-group" id="lstArticles">
+                  <li class="list-group-item" style="width:50%;text-align:center;"><a href="" target="_blank">1</a></li>
+                  <li class="list-group-item" style="width:50%;text-align:center;"><a href="" target="_blank">2</a></li>
+                  <li class="list-group-item" style="width:50%;text-align:center;"><a href="" target="_blank">3</a></li>
+                  <li class="list-group-item" style="width:50%;text-align:center;"><a href="" target="_blank">4</a></li>
+                  <li class="list-group-item" style="width:50%;text-align:center;"><a href="" target="_blank">5</a></li>
+                </ul>
+            </span>
+        </div>
+    </div>
+    <div style="width:50%;padding-top:15px;float:left;padding-right:10%;">
+       <div style="width:80%;float:left;">
+            <h3>Users with similar interests as you:</h3>
+            <span style="padding-top:10px;">
+                <ul class="list-group" id="lstUsers">
+                  <li class="list-group-item" style="width:50%;text-align:center;">User 1</li>
+                  <li class="list-group-item" style="width:50%;text-align:center;">User 2</li>
+                  <li class="list-group-item" style="width:50%;text-align:center;">User 3</li>
+                  <li class="list-group-item" style="width:50%;text-align:center;">User 4</li>
+                  <li class="list-group-item" style="width:50%;text-align:center;">User 5</li>
+                </ul>
+            </span>
+        </div>
+    </div>
+</div>
+<div id="divNewUsers" style="padding-top:30px;display:none;">
+    <div style="width:40%; float:left; border-right: solid 1px Black;margin-left:10%;" >    
+        <h4>Please choose your interest level in the following:</h4>
+        <table style="width:100%;" id="tblTopics">
+            <tr>
+                <td style="width:50%; text-align:center;">
+                    <div id="TopicCard" class="card card-default" style="background-color:#ffd6cc; height:40px;">
+                        <div style="vertical-align:center;padding-top:10px;">Topic 1</div>
+                    </div>
+                </td>
+                <td style="width:30%;text-align:center;padding-left:10%;padding-right:10%;">
+                    <input type="text" class="pull-right" style="border:none;text-align:right;" id="txtLabel" value="0%"></input>
+                    <input type="range" min="0" max="100" step="5" value="0" id="fader" onchange="UpdateSliderLabel(this)">
+                </td>  
+            </tr>
+            <tr>
+                <td style="width:50%; text-align:center;">
+                    <div id="TopicCard" class="card card-default" style="background-color:#b3ffb3; height:40px;">
+                        <div style="vertical-align:center;padding-top:10px;">Topic 2</div>
+                    </div>
+                </td>
+                <td style="width:30%;text-align:center;padding-left:10%;padding-right:10%;">
+                    <input type="text" class="pull-right" style="border:none;text-align:right;" id="txtLabel" value="0%"></input>
+                    <input type="range" min="0" max="100" step="5" value="0" id="fader" onchange="UpdateSliderLabel(this)">
+                </td>  
+            </tr>
+            <tr>
+                <td style="width:50%; text-align:center;">
+                    <div id="TopicCard" class="card card-default" style="background-color:#ffd1b3; height:40px;">
+                        <div style="vertical-align:center;padding-top:10px;">Topic 3</div>
+                    </div>
+                </td>
+                <td style="width:30%;text-align:center;padding-left:10%;padding-right:10%;">
+                    <input type="text" class="pull-right" style="border:none;text-align:right;" id="txtLabel" value="0%"></input>
+                    <input type="range" min="0" max="100" step="5" value="0" id="fader" onchange="UpdateSliderLabel(this)">
+                </td>   
+            </tr>
+            <tr>
+                <td style="width:50%; text-align:center;">
+                    <div id="TopicCard" class="card card-default" style="background-color:#c2d6d6; height:40px;">
+                        <div style="vertical-align:center;padding-top:10px;">Topic 4</div>
+                    </div>
+                </td>
+                <td style="width:30%;text-align:center;padding-left:10%;padding-right:10%;">
+                    <input type="text" class="pull-right" style="border:none;text-align:right;" id="txtLabel" value="0%"></input>
+                    <input type="range" min="0" max="100" step="5" value="0" id="fader" onchange="UpdateSliderLabel(this)">
+                </td>  
+            </tr>
+            <tr>
+                <td style="width:50%; text-align:center;">
+                    <div id="TopicCard" class="card card-default" style="background-color:#99b3ff; height:40px;">
+                        <div style="vertical-align:center;padding-top:10px;">Topic 5</div>
+                    </div>
+                </td>
+                <td style="width:30%;text-align:center;padding-left:10%;padding-right:10%;">
+                    <input type="text" class="pull-right" style="border:none;text-align:right;" id="txtLabel" value="0%"></input>
+                    <input type="range" min="0" max="100" step="5" value="0" id="fader" onchange="UpdateSliderLabel(this)">
+                </td>   
+            </tr>
+        </table>
+            
+        <div style="padding-top:30px; float:center; text-align:center;">
+            <button type="button" class="btn" style="background-color:#6c757d;border:solid 1px Black;color:white;" onclick="ClickSubmit()">Submit</button>
+        </div>
+    </div>
+</div>
+<footer id="footer">
+    <div style="text-align:center;">
+      <div style="width:20%;float:left;font-weight:500; text-decoration:underline;text-align:center;padding-top:10px;">Angad Srivastava</div>
+      <div style="width:20%;float:left;font-weight:500; text-decoration:underline;text-align:center;padding-top:10px;">Fam Guo Teng</div>
+      <div style="width:20%;float:left;font-weight:500; text-decoration:underline;text-align:center;padding-top:10px;">Matilda Tan Ying Xuan</div>
+      <div style="width:20%;float:left;font-weight:500; text-decoration:underline;text-align:center;padding-top:10px;">Wang Rui</div>
+      <div style="width:20%;float:left;font-weight:500; text-decoration:underline;text-align:center;padding-top:10px;">Zhuang Yan</div> 
+    </div>
+</footer>
+</body>
+</html>
+
+
+<script type="text/javascript">
+var userList = [];
+var articleDir = "https://raw.githubusercontent.com/angad-sr/ISSS609---Group-2---Text-Analytics/master/Articles/"
+
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS609---Group-2---Text-Analytics/master/data/Users%20Lookup.csv", function(error, data) {
+      data.forEach(function(d) {
+        userList.push(d);
+        var sel = document.getElementById('ddlUsers');
+        var opt = document.createElement('option');
+        opt.innerHTML = d.UserName;
+        opt.value = d.UserId;
+        sel.appendChild(opt);        
+      });
+});
+
+function DisplayUserSelection(value) {
+    if(value == "new")
+    {
+        document.getElementById("divExistingUsers").style.display = "none";
+        document.getElementById("divNewUsers").style.display = "block";
+    }
+    if(value == "existing")
+    {
+        document.getElementById("divExistingUsers").style.display = "block";
+        document.getElementById("divNewUsers").style.display = "none";
+    }    
+}
+
+function UpdateSliderLabel(element) {
+    element.previousElementSibling.value=element.value+"%"; 
+}
+
+function ClickSubmit()
+{
+    inputVector = [];
+    var score = 0;
+    var topicTable = document.getElementById("tblTopics");
+    for (var i = 0, row; row = topicTable.rows[i]; i++) {
+       score = 0;
+       for (var j = 1, col; col = row.cells[j]; j++) {
+            score = col.getElementsByTagName("input")[0].value;
+            score = parseFloat(score.substring(0, score.length - 1))/100
+       }
+        inputVector.push(score);           
+    }
+    alert(inputVector);
+}
+
+//Temp function
+function GenerateArticles() {
+    var files = ["Asia_9182.txt","Singapore_9609.txt","World_16198.txt","Crime_9067.txt","Showbiz_15266.txt"];
+    
+    element = document.getElementById("lstArticles");
+    var items = element.getElementsByTagName("li");
+    for(var i = 0; i < items.length; i++)
+    {
+        items[i].getElementsByTagName("a")[0].href = String(articleDir+files[i]);
+        items[i].getElementsByTagName("a")[0].text = String(files[i]).substring(0, String(files[i]).length - 4);
+    }   
+}
+</script>
