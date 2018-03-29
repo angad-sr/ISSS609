@@ -18,6 +18,27 @@
    height:50px;
    font-size:18px;
 }
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 </style>
 <body onload="GenerateArticles()">
 <!-- Common header section-->
@@ -75,18 +96,26 @@
         </div>
     </div>
 </div>
-<div id="divNewUsers" style="padding-top:30px;display:none;">
+<div id="divNewUsers" style="padding-top:30px;">
     <div style="width:40%; float:left; border-right: solid 1px Black;margin-left:10%;" >    
         <h4>Please choose your interest level in the following:</h4>
         <table style="width:100%;" id="tblTopics">
             <tr>
+                <td style="width:50%; text-align:center;">
+                
+                </td>
+                <td style="width:30%;text-align:center;padding-left:10%;padding-right:10%;">
+                    <div class="pull-right"><img src = "/images/thumbsup.png" width="20"/></div>
+                    <div class="pull-left"><img src = "/images/thumbsdown.png" width="20"/></div>
+                </td>
+            </tr>
                 <td style="width:50%; text-align:center;">
                     <div id="TopicCard" class="card card-default" style="background-color:#ffd6cc; height:40px;">
                         <div style="vertical-align:center;padding-top:10px;">Topic 1</div>
                     </div>
                 </td>
                 <td style="width:30%;text-align:center;padding-left:10%;padding-right:10%;">
-                    <input type="text" class="pull-right" style="border:none;text-align:right;" id="txtLabel" value="0%"></input>
+                    <input type="text"  style="border:none;text-align:right;" id="txtLabel" value="0%"></input>
                     <input type="range" min="0" max="100" step="5" value="0" id="fader" onchange="UpdateSliderLabel(this)">
                 </td>  
             </tr>
@@ -135,12 +164,13 @@
                 </td>   
             </tr>
         </table>
-            
+           
         <div style="padding-top:30px; float:center; text-align:center;">
             <button type="button" class="btn" style="background-color:#6c757d;border:solid 1px Black;color:white;" onclick="ClickSubmit()">Submit</button>
         </div>
     </div>
 </div>
+<div class="loader" id="divLoader" style="margin-left:45%;display:none;"></div>
 <footer id="footer">
     <div style="text-align:center;">
       <div style="width:20%;float:left;font-weight:500; text-decoration:underline;text-align:center;padding-top:10px;">Angad Srivastava</div>
@@ -160,12 +190,14 @@ var articleDir = "https://raw.githubusercontent.com/angad-sr/ISSS609---Group-2--
 
 d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS609---Group-2---Text-Analytics/master/data/Users%20Lookup.csv", function(error, data) {
       data.forEach(function(d) {
+        document.getElementById("divLoader").style.display = "block";
         userList.push(d);
         var sel = document.getElementById('ddlUsers');
         var opt = document.createElement('option');
         opt.innerHTML = d.UserName;
         opt.value = d.UserId;
         sel.appendChild(opt);        
+        document.getElementById("divLoader").style.display = "none";
       });
 });
 
@@ -189,6 +221,7 @@ function UpdateSliderLabel(element) {
 function ClickSubmit()
 {
     inputVector = [];
+    var num_of_topics = 5
     var score = 0;
     var topicTable = document.getElementById("tblTopics");
     for (var i = 0, row; row = topicTable.rows[i]; i++) {
@@ -199,7 +232,16 @@ function ClickSubmit()
        }
         inputVector.push(score);           
     }
-    alert(inputVector);
+    alert(VectorNormalization(Math.min(...inputVector), Math.max(...inputVector), inputVector));
+}
+
+function VectorNormalization(min, max, vector)
+{
+    for (var i = 0; i < vector.length; i++)
+    {
+        vector[i] = (vector[i] - min)/(max - min);
+    }
+    return vector;
 }
 
 //Temp function
