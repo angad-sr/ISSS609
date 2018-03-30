@@ -40,7 +40,7 @@
   100% { transform: rotate(360deg); }
 }
 </style>
-<body onload="GenerateArticles()">
+<body>
 <!-- Common header section-->
 <div style="background-color:#6c757d;text-align:center;vertical-align:center;padding:3px;color:White;">   
     <span style="text-align:center;"><h2>Welcome to the SG News Portal!</h2></span>
@@ -58,7 +58,7 @@
         <ul class="dropdown-menu">
           <li><a onclick="DisplayUserSelection('existing')">Existing User</a></li>
           <li><a onclick="DisplayUserSelection('new')">New User</a></li>
-        </ul>
+        </ul>        
     </div>
 </div> 
 <div id="divExistingUsers" style="padding-top:25px;margin-left:10%;display:none;">
@@ -66,17 +66,13 @@
         <span style="padding-right:3%; font-size:16px;">Please select your User Name?</span>
         <select id="ddlUsers">
         </select>
+        <button type="button" class="btn" style="border:solid 1px Black;margin-left:50px;" onclick="GenerateRecommendations()">Submit</button>
     </div>
     <div style="width:50%;padding-top:10px;float:left;padding-right:10%;">
        <div style="width:80%;float:left;">
             <h3>Recommended Articles for you:</h3>
             <span style="padding-top:10px;">
                 <ul class="list-group" id="lstArticles">
-                  <li class="list-group-item" style="width:50%;text-align:center;"><a href="" target="_blank">1</a></li>
-                  <li class="list-group-item" style="width:50%;text-align:center;"><a href="" target="_blank">2</a></li>
-                  <li class="list-group-item" style="width:50%;text-align:center;"><a href="" target="_blank">3</a></li>
-                  <li class="list-group-item" style="width:50%;text-align:center;"><a href="" target="_blank">4</a></li>
-                  <li class="list-group-item" style="width:50%;text-align:center;"><a href="" target="_blank">5</a></li>
                 </ul>
             </span>
         </div>
@@ -86,17 +82,12 @@
             <h3>Users with similar interests as you:</h3>
             <span style="padding-top:10px;">
                 <ul class="list-group" id="lstUsers">
-                  <li class="list-group-item" style="width:50%;text-align:center;">User 1</li>
-                  <li class="list-group-item" style="width:50%;text-align:center;">User 2</li>
-                  <li class="list-group-item" style="width:50%;text-align:center;">User 3</li>
-                  <li class="list-group-item" style="width:50%;text-align:center;">User 4</li>
-                  <li class="list-group-item" style="width:50%;text-align:center;">User 5</li>
                 </ul>
             </span>
         </div>
     </div>
 </div>
-<div id="divNewUsers" style="padding-top:30px;">
+<div id="divNewUsers" style="padding-top:30px;display:none;">
     <div style="width:40%; float:left; border-right: solid 1px Black;margin-left:10%;" >    
         <h4>Please choose your interest level in the following:</h4>
         <table style="width:100%;" id="tblTopics">
@@ -109,6 +100,7 @@
                     <div class="pull-left"><img src = "/images/thumbsdown.png" width="20"/></div>
                 </td>
             </tr>
+            <tr>
                 <td style="width:50%; text-align:center;">
                     <div id="TopicCard" class="card card-default" style="background-color:#ffd6cc; height:40px;">
                         <div style="vertical-align:center;padding-top:10px;">Topic 1</div>
@@ -185,22 +177,54 @@
 
 
 <script type="text/javascript">
-var userList = [];
+var userList = {};
+var user_user_Dict = {};
+var user_item_Dict = {};
 var articleDir = "https://raw.githubusercontent.com/angad-sr/ISSS609---Group-2---Text-Analytics/master/Articles/"
 
+// Reading user recommendations for existing users
+d3.tsv("https://raw.githubusercontent.com/angad-sr/Text-Analytics/master/data/User%20User%20Similarity.tsv", function(error, data) {      
+    document.getElementById("divLoader").style.display = "block";
+    data.forEach(function(d) {        
+        reco_list = [];
+        for (var i = 1; i < Object.keys(d).length; i++) {
+            if (d["User"+String(i)].length > 4)
+                reco_list.push(d["User"+String(i)].substring(0, d["User"+String(i)].length - 4));            
+        }
+        user_user_Dict[d.Primary_User.substring(0, d.Primary_User.length - 4)] = reco_list;
+    });
+    document.getElementById("divLoader").style.display = "none";
+});
+
+// Reading article recommendations for existing users
+d3.tsv("https://raw.githubusercontent.com/angad-sr/Text-Analytics/master/data/User%20Article%20Similarity.tsv", function(error, data) {      
+    document.getElementById("divLoader").style.display = "block";
+    data.forEach(function(d) {        
+        reco_list = [];
+        for (var i = 1; i < Object.keys(d).length; i++) {
+            if (d["Article"+String(i)].length > 4)
+                reco_list.push(d["Article"+String(i)].substring(0, d["Article"+String(i)].length - 4));            
+        }
+        user_item_Dict[d.Primary_User.substring(0, d.Primary_User.length - 4)] = reco_list;
+    });
+    document.getElementById("divLoader").style.display = "none";
+});
+
+// Reading existing user master list
 d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS609---Group-2---Text-Analytics/master/data/Users%20Lookup.csv", function(error, data) {
-      data.forEach(function(d) {
-        document.getElementById("divLoader").style.display = "block";
-        userList.push(d);
+    document.getElementById("divLoader").style.display = "block";
+    data.forEach(function(d) {        
+        userList[d.UserId] = d.UserName;
         var sel = document.getElementById('ddlUsers');
         var opt = document.createElement('option');
         opt.innerHTML = d.UserName;
         opt.value = d.UserId;
-        sel.appendChild(opt);        
-        document.getElementById("divLoader").style.display = "none";
-      });
+        sel.appendChild(opt);                
+    });
+    document.getElementById("divLoader").style.display = "none";
 });
 
+// Conditional display of page sections
 function DisplayUserSelection(value) {
     if(value == "new")
     {
@@ -214,10 +238,12 @@ function DisplayUserSelection(value) {
     }    
 }
 
+// Update Slider for Topic selection
 function UpdateSliderLabel(element) {
     element.previousElementSibling.value=element.value+"%"; 
 }
 
+// Store Input Vector and compute for similar users
 function ClickSubmit()
 {
     inputVector = [];
@@ -235,6 +261,7 @@ function ClickSubmit()
     alert(VectorNormalization(Math.min(...inputVector), Math.max(...inputVector), inputVector));
 }
 
+// Normalizing Input Vector
 function VectorNormalization(min, max, vector)
 {
     for (var i = 0; i < vector.length; i++)
@@ -244,16 +271,22 @@ function VectorNormalization(min, max, vector)
     return vector;
 }
 
-//Temp function
-function GenerateArticles() {
-    var files = ["Asia_9182.txt","Singapore_9609.txt","World_16198.txt","Crime_9067.txt","Showbiz_15266.txt"];
+// Generate User and Article recommendations for existing users
+function GenerateRecommendations() {
+    userID = document.getElementById("ddlUsers").value;
+    selectedUserUsers = user_user_Dict["User_"+String(userID)];
+    selectedUserArticles = user_item_Dict["User_"+String(userID)];
     
-    element = document.getElementById("lstArticles");
-    var items = element.getElementsByTagName("li");
-    for(var i = 0; i < items.length; i++)
-    {
-        items[i].getElementsByTagName("a")[0].href = String(articleDir+files[i]);
-        items[i].getElementsByTagName("a")[0].text = String(files[i]).substring(0, String(files[i]).length - 4);
-    }   
+    document.getElementById("lstUsers").innerHTML = "";
+    document.getElementById("lstArticles").innerHTML = "";
+
+    for (var i = 0; i < selectedUserUsers.length; i++) {
+        document.getElementById("lstUsers").innerHTML += "<li class='list-group-item' style='width:50%;text-align:center;'>"+ userList[selectedUserUsers[i].substring(5)] +"</li>";
+    }    
+
+    for (var i = 0; i < selectedUserArticles.length; i++) {
+        document.getElementById("lstArticles").innerHTML += "<li class='list-group-item' style='width:50%;text-align:center;'><a href='"+ String(articleDir+selectedUserArticles[i]) +".txt' target='_blank'>"+ selectedUserArticles[i] +"</a></li>";
+    }
 }
+
 </script>
