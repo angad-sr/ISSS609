@@ -320,6 +320,7 @@ d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS609---Group-2---Text-Anal
 
 // Conditional display of page sections
 function DisplayUserSelection(value) {
+    document.getElementById("footer").style.display = "block";
     if(value == "new")
     {
         document.getElementById("divExistingUsers").style.display = "none";
@@ -355,11 +356,13 @@ function ClickSubmit()
                 inputVector.push(i);        
         }          
     }
-    GenerateNewUserRecommendations(inputVector);
+    if (inputVector.length>1)
+        GenerateNewUserRecommendations(inputVector);
 }
 
 // Generate Article recommendations for new users
 function GenerateNewUserRecommendations(topic_indices) {
+    document.getElementById("footer").style.display = "none";
     var number_of_docs = 10;
     var index = 0;
     
@@ -375,6 +378,7 @@ function GenerateNewUserRecommendations(topic_indices) {
 
 // Generate User and Article recommendations for existing users
 function GenerateExistingUserRecommendations() {
+    document.getElementById("footer").style.display = "none";
     userID = document.getElementById("ddlUsers").value;
     selectedUserUsers = user_user_Dict[userID];
     selectedUserArticles = user_item_Dict[userID];
@@ -393,5 +397,6 @@ function GenerateExistingUserRecommendations() {
     for (var i = 0; i < selectedUserArticles.length; i++) {
         document.getElementById("lstArticles").innerHTML += "<li class='list-group-item' style='width:50%;text-align:center;'><a href='"+ String(articleDir+selectedUserArticles[i]) +".txt' target='_blank'>"+ selectedUserArticles[i] +"</a></li>";
     }
+
 }
 </script>
