@@ -42,7 +42,7 @@ Primary_User	Article1	Article2	Article3	Article4	Article5	Article6	Article7	Arti
 15763	SGNews/Asia_11580.txt	SGNews/Asia_11772.txt	SGNews/Asia_12264.txt	SGNews/Asia_11304.txt	SGNews/Asia_10908.txt	SGNews/Asia_12510.txt	SGNews/Asia_11789.txt	SGNews/Asia_11687.txt	SGNews/Asia_11395.txt	SGNews/Asia_13630.txt
 6836	SGNews/Asia_11707.txt	SGNews/Asia_11478.txt	SGNews/Asia_10083.txt	SGNews/Asia_13337.txt	SGNews/Asia_13589.txt	SGNews/Asia_12504.txt	SGNews/Asia_10048.txt	SGNews/Asia_10150.txt	SGNews/Asia_10195.txt	SGNews/Asia_10785.txt
 9234	SGNews/Asia_10908.txt	SGNews/Asia_12726.txt	SGNews/Asia_10121.txt	SGNews/Asia_10579.txt	SGNews/Asia_11468.txt	SGNews/Asia_11528.txt	SGNews/Asia_11792.txt	SGNews/Asia_13905.txt	SGNews/Asia_12158.txt	SGNews/Asia_12960.txt
-5345	SGNews/Asia_13555.txt	SGNews/Asia_10376.txt	SGNews/Asia_10356.txt	SGNews/Asia_11533.txt	SGNews/Asia_13603.txt	SGNews/Asia_12512.txt	SGNews/Asia_13658.txt	SGNews/Asia_11675.txt	SGNews/Asia_11504.txt
+5345	SGNews/Asia_13555.txt	SGNews/Asia_10376.txt	SGNews/Asia_10356.txt	SGNews/Asia_11533.txt	SGNews/Asia_13603.txt	SGNews/Asia_12512.txt	SGNews/Asia_13658.txt	SGNews/Asia_11675.txt	SGNews/Asia_11504.txt	
 12351	SGNews/Asia_11707.txt	SGNews/Asia_10083.txt	SGNews/Asia_10151.txt	SGNews/Asia_10198.txt	SGNews/Asia_13801.txt	SGNews/Asia_10858.txt	SGNews/Asia_10565.txt	SGNews/Asia_13979.txt	SGNews/Asia_13302.txt	SGNews/Asia_12940.txt
 4536	SGNews/Asia_11707.txt	SGNews/Asia_11478.txt	SGNews/Asia_13591.txt	SGNews/Asia_10048.txt	SGNews/Asia_12512.txt	SGNews/Asia_10788.txt	SGNews/Asia_10699.txt	SGNews/Asia_12502.txt	SGNews/Asia_11373.txt	SGNews/Asia_13314.txt
 15044	SGNews/Asia_11707.txt	SGNews/Asia_11792.txt	SGNews/Asia_13338.txt	SGNews/Asia_12126.txt	SGNews/Asia_12512.txt	SGNews/Asia_10645.txt	SGNews/Asia_13653.txt	SGNews/Asia_13575.txt	SGNews/Asia_10699.txt	SGNews/Asia_10083.txt
@@ -474,7 +474,7 @@ Primary_User	Article1	Article2	Article3	Article4	Article5	Article6	Article7	Arti
 10927	SGNews/Asia_10083.txt	SGNews/Asia_11706.txt	SGNews/Asia_10434.txt	SGNews/Asia_10277.txt	SGNews/Asia_10763.txt	SGNews/Asia_12829.txt	SGNews/Asia_13155.txt	SGNews/Asia_11477.txt	SGNews/Asia_13314.txt	SGNews/Asia_10151.txt
 11734	SGNews/Asia_11707.txt	SGNews/Asia_10710.txt	SGNews/Asia_13887.txt	SGNews/Asia_11505.txt	SGNews/Asia_10764.txt	SGNews/Asia_10210.txt	SGNews/Asia_10083.txt	SGNews/Asia_10151.txt	SGNews/Asia_10198.txt	SGNews/Asia_13573.txt
 23360	SGNews/Asia_10710.txt	SGNews/Asia_10645.txt	SGNews/Asia_12689.txt	SGNews/Asia_11688.txt	SGNews/Asia_12125.txt	SGNews/Asia_12421.txt	SGNews/Asia_13336.txt	SGNews/Asia_13652.txt	SGNews/Asia_11463.txt	SGNews/Asia_12961.txt
-8737	SGNews/Asia_10005.txt
+8737	SGNews/Asia_10005.txt									
 22811	SGNews/Asia_13589.txt	SGNews/Asia_13021.txt	SGNews/Asia_11707.txt	SGNews/Asia_13751.txt	SGNews/Asia_12514.txt	SGNews/Asia_11792.txt	SGNews/Asia_12264.txt	SGNews/Asia_13020.txt	SGNews/Asia_10908.txt	SGNews/Asia_13643.txt
 11982	SGNews/Asia_11506.txt	SGNews/Asia_13979.txt	SGNews/Asia_11174.txt	SGNews/Asia_11688.txt	SGNews/Asia_10083.txt	SGNews/Asia_11397.txt	SGNews/Asia_10277.txt	SGNews/Asia_10048.txt	SGNews/Asia_13653.txt	SGNews/Asia_11052.txt
 23192	SGNews/Asia_13886.txt	SGNews/Asia_10788.txt	SGNews/Asia_10752.txt	SGNews/Asia_10634.txt	SGNews/Asia_11478.txt	SGNews/Asia_11440.txt	SGNews/Asia_13973.txt	SGNews/Asia_11789.txt	SGNews/Asia_13395.txt	SGNews/Asia_12070.txt
@@ -725,7 +725,7 @@ Primary_User	Article1	Article2	Article3	Article4	Article5	Article6	Article7	Arti
 25971	SGNews/Asia_11773.txt	SGNews/Asia_10123.txt	SGNews/Asia_14077.txt	SGNews/Asia_13425.txt	SGNews/Asia_14119.txt	SGNews/Asia_13077.txt	SGNews/Asia_14090.txt	SGNews/Asia_11355.txt	SGNews/Asia_10841.txt	SGNews/Asia_12960.txt
 19851	SGNews/Asia_11478.txt	SGNews/Asia_11084.txt	SGNews/Asia_11688.txt	SGNews/Asia_10048.txt	SGNews/Asia_10082.txt	SGNews/Asia_12139.txt	SGNews/Asia_13071.txt	SGNews/Asia_10150.txt	SGNews/Asia_10195.txt	SGNews/Asia_12488.txt
 26340	SGNews/Asia_10362.txt	SGNews/Asia_12595.txt	SGNews/Asia_10752.txt	SGNews/Asia_10042.txt	SGNews/Asia_12411.txt	SGNews/Asia_11464.txt	SGNews/Asia_11935.txt	SGNews/Asia_10125.txt	SGNews/Asia_13339.txt	SGNews/Asia_10681.txt
-25618	SGNews/Asia_10005.txt
+25618	SGNews/Asia_10005.txt									
 7533	SGNews/Asia_12791.txt	SGNews/Asia_11309.txt	SGNews/Asia_13657.txt	SGNews/Asia_12824.txt	SGNews/Asia_10883.txt	SGNews/Asia_10912.txt	SGNews/Asia_10765.txt	SGNews/Asia_11968.txt	SGNews/Asia_13930.txt	SGNews/Asia_11389.txt
 21682	SGNews/Asia_13384.txt	SGNews/Asia_12791.txt	SGNews/Asia_12691.txt	SGNews/Asia_11465.txt	SGNews/Asia_11942.txt	SGNews/Asia_11036.txt	SGNews/Asia_13033.txt	SGNews/Asia_13686.txt	SGNews/Asia_10789.txt	SGNews/Asia_12781.txt
 19882	SGNews/Asia_12302.txt	SGNews/Asia_12690.txt	SGNews/Asia_11467.txt	SGNews/Asia_10710.txt	SGNews/Asia_12352.txt	SGNews/Asia_10048.txt	SGNews/Asia_10508.txt	SGNews/Asia_10207.txt	SGNews/Asia_13496.txt	SGNews/Asia_10907.txt
@@ -1081,7 +1081,7 @@ Primary_User	Article1	Article2	Article3	Article4	Article5	Article6	Article7	Arti
 27392	SGNews/Asia_13366.txt	SGNews/Asia_13840.txt	SGNews/Asia_12512.txt	SGNews/Asia_10710.txt	SGNews/Asia_11706.txt	SGNews/Asia_13339.txt	SGNews/Asia_11463.txt	SGNews/Asia_12872.txt	SGNews/Asia_12565.txt	SGNews/Asia_14038.txt
 11417	SGNews/Asia_13889.txt	SGNews/Asia_12950.txt	SGNews/Asia_13801.txt	SGNews/Asia_13620.txt	SGNews/Asia_12881.txt	SGNews/Asia_10834.txt	SGNews/Asia_12126.txt	SGNews/Asia_12118.txt	SGNews/Asia_13595.txt	SGNews/Asia_13026.txt
 27206	SGNews/Asia_13657.txt	SGNews/Asia_13752.txt	SGNews/Asia_12213.txt	SGNews/Asia_12134.txt	SGNews/Asia_11506.txt	SGNews/Asia_13650.txt	SGNews/Asia_13815.txt	SGNews/Asia_12512.txt	SGNews/Asia_11438.txt	SGNews/Asia_11708.txt
-27685	SGNews/Asia_10005.txt
+27685	SGNews/Asia_10005.txt									
 27566	SGNews/Asia_12512.txt	SGNews/Asia_12975.txt	SGNews/Asia_11465.txt	SGNews/Asia_10152.txt	SGNews/Asia_10199.txt	SGNews/Asia_10048.txt	SGNews/Asia_11686.txt	SGNews/Asia_13574.txt	SGNews/Asia_11052.txt	SGNews/Asia_10123.txt
 29139	SGNews/Asia_11080.txt	SGNews/Asia_11477.txt	SGNews/Asia_10083.txt	SGNews/Asia_10109.txt	SGNews/Asia_11505.txt	SGNews/Asia_10787.txt	SGNews/Asia_11468.txt	SGNews/Asia_11674.txt	SGNews/Asia_13556.txt	SGNews/Asia_13314.txt
 27333	SGNews/Asia_13722.txt	SGNews/Asia_12898.txt	SGNews/Asia_12453.txt	SGNews/Asia_11981.txt	SGNews/Asia_14173.txt	SGNews/Asia_10146.txt	SGNews/Asia_11984.txt	SGNews/Asia_12038.txt	SGNews/Asia_12208.txt	SGNews/Asia_10841.txt
@@ -1098,7 +1098,7 @@ Primary_User	Article1	Article2	Article3	Article4	Article5	Article6	Article7	Arti
 22548	SGNews/Asia_11559.txt	SGNews/Asia_13089.txt	SGNews/Asia_11465.txt	SGNews/Asia_11954.txt	SGNews/Asia_12665.txt	SGNews/Asia_13103.txt	SGNews/Asia_13034.txt	SGNews/Asia_12504.txt	SGNews/Asia_11773.txt	SGNews/Asia_13768.txt
 28326	SGNews/Asia_10524.txt	SGNews/Asia_11747.txt	SGNews/Asia_11864.txt	SGNews/Asia_10150.txt	SGNews/Asia_11468.txt	SGNews/Asia_13309.txt	SGNews/Asia_11848.txt	SGNews/Asia_13890.txt	SGNews/Asia_12951.txt	SGNews/Asia_10858.txt
 29692	SGNews/Asia_12664.txt	SGNews/Asia_10360.txt	SGNews/Asia_13800.txt	SGNews/Asia_10699.txt	SGNews/Asia_13246.txt	SGNews/Asia_10358.txt	SGNews/Asia_13316.txt	SGNews/Asia_13158.txt	SGNews/Asia_13379.txt	SGNews/Asia_10988.txt
-27276	SGNews/Asia_10005.txt
+27276	SGNews/Asia_10005.txt									
 39849	SGNews/Asia_12569.txt	SGNews/Asia_11465.txt	SGNews/Asia_11706.txt	SGNews/Asia_10048.txt	SGNews/Asia_11306.txt	SGNews/Asia_12792.txt	SGNews/Asia_11467.txt	SGNews/Asia_10082.txt	SGNews/Asia_12116.txt	SGNews/Asia_12629.txt
 6231	SGNews/Asia_11707.txt	SGNews/Asia_10710.txt	SGNews/Asia_13591.txt	SGNews/Asia_13338.txt	SGNews/Asia_10048.txt	SGNews/Asia_13653.txt	SGNews/Asia_12665.txt	SGNews/Asia_10787.txt	SGNews/Asia_10151.txt	SGNews/Asia_10198.txt
 57279	SGNews/Asia_13021.txt	SGNews/Asia_12785.txt	SGNews/Asia_13405.txt	SGNews/Asia_13590.txt	SGNews/Asia_11707.txt	SGNews/Asia_10048.txt	SGNews/Asia_13158.txt	SGNews/Asia_11084.txt	SGNews/Asia_11706.txt	SGNews/Asia_11504.txt
@@ -1468,7 +1468,7 @@ Primary_User	Article1	Article2	Article3	Article4	Article5	Article6	Article7	Arti
 13492	SGNews/Asia_13101.txt	SGNews/Asia_13214.txt	SGNews/Asia_13924.txt	SGNews/Asia_13076.txt	SGNews/Asia_13394.txt	SGNews/Asia_10123.txt	SGNews/Asia_11084.txt	SGNews/Asia_10908.txt	SGNews/Asia_12856.txt	SGNews/Asia_12631.txt
 30688	SGNews/Asia_10048.txt	SGNews/Asia_13980.txt	SGNews/Asia_14074.txt	SGNews/Asia_10361.txt	SGNews/Asia_10293.txt	SGNews/Asia_10481.txt	SGNews/Asia_10151.txt	SGNews/Asia_10198.txt	SGNews/Asia_10275.txt	SGNews/Asia_12242.txt
 30794	SGNews/Asia_11241.txt	SGNews/Asia_10395.txt	SGNews/Asia_13019.txt	SGNews/Asia_13472.txt	SGNews/Asia_10834.txt	SGNews/Asia_11398.txt	SGNews/Asia_11080.txt	SGNews/Asia_12882.txt	SGNews/Asia_13501.txt	SGNews/Asia_11442.txt
-22539	SGNews/Asia_11674.txt	SGNews/Asia_11209.txt	SGNews/Asia_13745.txt	SGNews/Asia_11298.txt	SGNews/Asia_12487.txt	SGNews/Asia_10341.txt	SGNews/Asia_11592.txt	SGNews/Asia_12954.txt	SGNews/Asia_10005.txt
+22539	SGNews/Asia_11674.txt	SGNews/Asia_11209.txt	SGNews/Asia_13745.txt	SGNews/Asia_11298.txt	SGNews/Asia_12487.txt	SGNews/Asia_10341.txt	SGNews/Asia_11592.txt	SGNews/Asia_12954.txt	SGNews/Asia_10005.txt	
 31702	SGNews/Asia_11394.txt	SGNews/Asia_12020.txt	SGNews/Asia_12791.txt	SGNews/Asia_10981.txt	SGNews/Asia_12037.txt	SGNews/Asia_11708.txt	SGNews/Asia_13815.txt	SGNews/Asia_10679.txt	SGNews/Asia_11863.txt	SGNews/Asia_12299.txt
 57644	SGNews/Asia_11506.txt	SGNews/Asia_10789.txt	SGNews/Asia_11688.txt	SGNews/Asia_11790.txt	SGNews/Asia_12355.txt	SGNews/Asia_13588.txt	SGNews/Asia_13320.txt	SGNews/Asia_14072.txt	SGNews/Asia_10152.txt	SGNews/Asia_10199.txt
 30510	SGNews/Asia_10083.txt	SGNews/Asia_11706.txt	SGNews/Asia_10048.txt	SGNews/Asia_13384.txt	SGNews/Asia_13886.txt	SGNews/Asia_11468.txt	SGNews/Asia_11710.txt	SGNews/Asia_11053.txt	SGNews/Asia_11477.txt	SGNews/Asia_13840.txt
@@ -1490,7 +1490,7 @@ Primary_User	Article1	Article2	Article3	Article4	Article5	Article6	Article7	Arti
 5786	SGNews/Asia_11707.txt	SGNews/Asia_12584.txt	SGNews/Asia_12898.txt	SGNews/Asia_13656.txt	SGNews/Asia_13710.txt	SGNews/Asia_12704.txt	SGNews/Asia_11478.txt	SGNews/Asia_13218.txt	SGNews/Asia_11533.txt	SGNews/Asia_10766.txt
 31318	SGNews/Asia_13184.txt	SGNews/Asia_12664.txt	SGNews/Asia_11085.txt	SGNews/Asia_10578.txt	SGNews/Asia_10659.txt	SGNews/Asia_11971.txt	SGNews/Asia_10509.txt	SGNews/Asia_10645.txt	SGNews/Asia_12106.txt	SGNews/Asia_10049.txt
 23594	SGNews/Asia_11707.txt	SGNews/Asia_10083.txt	SGNews/Asia_13043.txt	SGNews/Asia_11477.txt	SGNews/Asia_12786.txt	SGNews/Asia_13710.txt	SGNews/Asia_11906.txt	SGNews/Asia_13379.txt	SGNews/Asia_10580.txt	SGNews/Asia_13746.txt
-30635	SGNews/Asia_10005.txt
+30635	SGNews/Asia_10005.txt									
 29864	SGNews/Asia_12792.txt	SGNews/Asia_13244.txt	SGNews/Asia_11478.txt	SGNews/Asia_13043.txt	SGNews/Asia_12151.txt	SGNews/Asia_10046.txt	SGNews/Asia_12511.txt	SGNews/Asia_10082.txt	SGNews/Asia_11687.txt	SGNews/Asia_13746.txt
 14434	SGNews/Asia_11707.txt	SGNews/Asia_12511.txt	SGNews/Asia_11528.txt	SGNews/Asia_10152.txt	SGNews/Asia_10199.txt	SGNews/Asia_10787.txt	SGNews/Asia_10696.txt	SGNews/Asia_11477.txt	SGNews/Asia_10083.txt	SGNews/Asia_11465.txt
 31209	SGNews/Asia_12038.txt	SGNews/Asia_11707.txt	SGNews/Asia_13657.txt	SGNews/Asia_12287.txt	SGNews/Asia_11506.txt	SGNews/Asia_11235.txt	SGNews/Asia_11790.txt	SGNews/Asia_11065.txt	SGNews/Asia_10048.txt	SGNews/Asia_13643.txt
@@ -1528,7 +1528,7 @@ Primary_User	Article1	Article2	Article3	Article4	Article5	Article6	Article7	Arti
 19088	SGNews/Asia_11707.txt	SGNews/Asia_12511.txt	SGNews/Asia_11478.txt	SGNews/Asia_12512.txt	SGNews/Asia_12138.txt	SGNews/Asia_10710.txt	SGNews/Asia_13575.txt	SGNews/Asia_10048.txt	SGNews/Asia_13315.txt	SGNews/Asia_10121.txt
 31459	SGNews/Asia_10083.txt	SGNews/Asia_11706.txt	SGNews/Asia_11210.txt	SGNews/Asia_13658.txt	SGNews/Asia_10643.txt	SGNews/Asia_12453.txt	SGNews/Asia_10673.txt	SGNews/Asia_13970.txt	SGNews/Asia_10121.txt	SGNews/Asia_11355.txt
 20718	SGNews/Asia_13669.txt	SGNews/Asia_10505.txt	SGNews/Asia_10790.txt	SGNews/Asia_13657.txt	SGNews/Asia_12631.txt	SGNews/Asia_13059.txt	SGNews/Asia_10765.txt	SGNews/Asia_13652.txt	SGNews/Asia_13156.txt	SGNews/Asia_12826.txt
-32398	SGNews/Asia_11121.txt	SGNews/Asia_13338.txt	SGNews/Asia_13391.txt	SGNews/Asia_10610.txt	SGNews/Asia_10796.txt	SGNews/Asia_10791.txt	SGNews/Asia_10790.txt	SGNews/Asia_10904.txt	SGNews/Asia_10795.txt
+32398	SGNews/Asia_11121.txt	SGNews/Asia_13338.txt	SGNews/Asia_13391.txt	SGNews/Asia_10610.txt	SGNews/Asia_10796.txt	SGNews/Asia_10791.txt	SGNews/Asia_10790.txt	SGNews/Asia_10904.txt	SGNews/Asia_10795.txt	
 32403	SGNews/Asia_10791.txt	SGNews/Asia_14149.txt	SGNews/Asia_13338.txt	SGNews/Asia_13392.txt	SGNews/Asia_11306.txt	SGNews/Asia_14039.txt	SGNews/Asia_12117.txt	SGNews/Asia_11906.txt	SGNews/Asia_13499.txt	SGNews/Asia_13059.txt
 32405	SGNews/Asia_10911.txt	SGNews/Asia_13643.txt	SGNews/Asia_12566.txt	SGNews/Asia_14077.txt	SGNews/Asia_12619.txt	SGNews/Asia_13963.txt	SGNews/Asia_13069.txt	SGNews/Asia_10149.txt	SGNews/Asia_10083.txt	SGNews/Asia_12729.txt
 32347	SGNews/Asia_13888.txt	SGNews/Asia_14146.txt	SGNews/Asia_10981.txt	SGNews/Asia_13556.txt	SGNews/Asia_11477.txt	SGNews/Asia_12827.txt	SGNews/Asia_10986.txt	SGNews/Asia_10755.txt	SGNews/Asia_10857.txt	SGNews/Asia_11358.txt
@@ -1551,7 +1551,7 @@ Primary_User	Article1	Article2	Article3	Article4	Article5	Article6	Article7	Arti
 79798	SGNews/Asia_12792.txt	SGNews/Asia_11707.txt	SGNews/Asia_13243.txt	SGNews/Asia_10789.txt	SGNews/Asia_13575.txt	SGNews/Asia_13588.txt	SGNews/Asia_11298.txt	SGNews/Asia_12504.txt	SGNews/Asia_11397.txt	SGNews/Asia_11478.txt
 110944	SGNews/Asia_11478.txt	SGNews/Asia_10048.txt	SGNews/Asia_13591.txt	SGNews/Asia_10151.txt	SGNews/Asia_10198.txt	SGNews/Asia_10786.txt	SGNews/Asia_13320.txt	SGNews/Asia_11676.txt	SGNews/Asia_11461.txt	SGNews/Asia_12487.txt
 92320	SGNews/Asia_12266.txt	SGNews/Asia_13339.txt	SGNews/Asia_11707.txt	SGNews/Asia_11772.txt	SGNews/Asia_11791.txt	SGNews/Asia_11580.txt	SGNews/Asia_10083.txt	SGNews/Asia_13574.txt	SGNews/Asia_11396.txt	SGNews/Asia_11303.txt
-61914	SGNews/Asia_12950.txt	SGNews/Asia_12881.txt	SGNews/Asia_13215.txt	SGNews/Asia_13799.txt	SGNews/Asia_13618.txt	SGNews/Asia_11942.txt	SGNews/Asia_12125.txt	SGNews/Asia_13034.txt	SGNews/Asia_13026.txt
+61914	SGNews/Asia_12950.txt	SGNews/Asia_12881.txt	SGNews/Asia_13215.txt	SGNews/Asia_13799.txt	SGNews/Asia_13618.txt	SGNews/Asia_11942.txt	SGNews/Asia_12125.txt	SGNews/Asia_13034.txt	SGNews/Asia_13026.txt	
 138218	SGNews/Asia_10984.txt	SGNews/Asia_13981.txt	SGNews/Asia_12047.txt	SGNews/Asia_12312.txt	SGNews/Asia_13900.txt	SGNews/Asia_13074.txt	SGNews/Asia_12020.txt	SGNews/Asia_13588.txt	SGNews/Asia_13928.txt	SGNews/Asia_14118.txt
 93200	SGNews/Asia_13593.txt	SGNews/Asia_13589.txt	SGNews/Asia_13340.txt	SGNews/Asia_12369.txt	SGNews/Asia_11707.txt	SGNews/Asia_13749.txt	SGNews/Asia_12707.txt	SGNews/Asia_12513.txt	SGNews/Asia_13021.txt	SGNews/Asia_13901.txt
 33312	SGNews/Asia_10005.txt	SGNews/Asia_13502.txt	SGNews/Asia_10858.txt	SGNews/Asia_12060.txt	SGNews/Asia_11034.txt	SGNews/Asia_10579.txt	SGNews/Asia_13650.txt	SGNews/Asia_10696.txt	SGNews/Asia_13302.txt	SGNews/Asia_12636.txt
@@ -1582,8 +1582,8 @@ Primary_User	Article1	Article2	Article3	Article4	Article5	Article6	Article7	Arti
 33055	SGNews/Asia_12369.txt	SGNews/Asia_11982.txt	SGNews/Asia_11176.txt	SGNews/Asia_11228.txt	SGNews/Asia_11554.txt	SGNews/Asia_10981.txt	SGNews/Asia_12513.txt	SGNews/Asia_10326.txt	SGNews/Asia_12019.txt	SGNews/Asia_11005.txt
 33059	SGNews/Asia_10293.txt	SGNews/Asia_14073.txt	SGNews/Asia_13426.txt	SGNews/Asia_14152.txt	SGNews/Asia_13474.txt	SGNews/Asia_10257.txt	SGNews/Asia_10675.txt	SGNews/Asia_12783.txt	SGNews/Asia_11461.txt	SGNews/Asia_13801.txt
 32895	SGNews/Asia_10392.txt	SGNews/Asia_11153.txt	SGNews/Asia_13247.txt	SGNews/Asia_13819.txt	SGNews/Asia_13752.txt	SGNews/Asia_11971.txt	SGNews/Asia_11688.txt	SGNews/Asia_12299.txt	SGNews/Asia_10784.txt	SGNews/Asia_13962.txt
-32893	SGNews/Asia_10341.txt	SGNews/Asia_13990.txt	SGNews/Asia_12007.txt	SGNews/Asia_13487.txt	SGNews/Asia_13475.txt	SGNews/Asia_12510.txt	SGNews/Asia_10359.txt	SGNews/Asia_13240.txt	SGNews/Asia_10005.txt
-33032	SGNews/Asia_10394.txt	SGNews/Asia_10005.txt
+32893	SGNews/Asia_10341.txt	SGNews/Asia_13990.txt	SGNews/Asia_12007.txt	SGNews/Asia_13487.txt	SGNews/Asia_13475.txt	SGNews/Asia_12510.txt	SGNews/Asia_10359.txt	SGNews/Asia_13240.txt	SGNews/Asia_10005.txt	
+33032	SGNews/Asia_10394.txt	SGNews/Asia_10005.txt								
 33051	SGNews/Asia_13987.txt	SGNews/Asia_10752.txt	SGNews/Asia_13575.txt	SGNews/Asia_10634.txt	SGNews/Asia_10980.txt	SGNews/Asia_13499.txt	SGNews/Asia_10658.txt	SGNews/Asia_10357.txt	SGNews/Asia_12071.txt	SGNews/Asia_12597.txt
 33648	SGNews/Asia_11813.txt	SGNews/Asia_13668.txt	SGNews/Asia_11478.txt	SGNews/Asia_13497.txt	SGNews/Asia_10152.txt	SGNews/Asia_10199.txt	SGNews/Asia_10014.txt	SGNews/Asia_13931.txt	SGNews/Asia_13746.txt	SGNews/Asia_12896.txt
 33033	SGNews/Asia_13668.txt	SGNews/Asia_13037.txt	SGNews/Asia_13280.txt	SGNews/Asia_10982.txt	SGNews/Asia_13239.txt	SGNews/Asia_14150.txt	SGNews/Asia_13281.txt	SGNews/Asia_13219.txt	SGNews/Asia_12610.txt	SGNews/Asia_13442.txt
@@ -1742,7 +1742,7 @@ Primary_User	Article1	Article2	Article3	Article4	Article5	Article6	Article7	Arti
 37983	SGNews/Asia_11707.txt	SGNews/Asia_10083.txt	SGNews/Asia_11615.txt	SGNews/Asia_11063.txt	SGNews/Asia_10985.txt	SGNews/Asia_12783.txt	SGNews/Asia_10699.txt	SGNews/Asia_12411.txt	SGNews/Asia_14105.txt	SGNews/Asia_13380.txt
 10165	SGNews/Asia_11559.txt	SGNews/Asia_12452.txt	SGNews/Asia_13575.txt	SGNews/Asia_12513.txt	SGNews/Asia_10043.txt	SGNews/Asia_13749.txt	SGNews/Asia_11887.txt	SGNews/Asia_11063.txt	SGNews/Asia_10678.txt	SGNews/Asia_12962.txt
 37789	SGNews/Asia_13184.txt	SGNews/Asia_12569.txt	SGNews/Asia_10509.txt	SGNews/Asia_12631.txt	SGNews/Asia_13655.txt	SGNews/Asia_10659.txt	SGNews/Asia_10048.txt	SGNews/Asia_11971.txt	SGNews/Asia_13722.txt	SGNews/Asia_12241.txt
-26913	SGNews/Asia_11707.txt	SGNews/Asia_10152.txt	SGNews/Asia_10199.txt	SGNews/Asia_13655.txt	SGNews/Asia_11478.txt	SGNews/Asia_11396.txt	SGNews/Asia_10048.txt	SGNews/Asia_13643.txt	SGNews/Asia_13573.txt
+26913	SGNews/Asia_11707.txt	SGNews/Asia_10152.txt	SGNews/Asia_10199.txt	SGNews/Asia_13655.txt	SGNews/Asia_11478.txt	SGNews/Asia_11396.txt	SGNews/Asia_10048.txt	SGNews/Asia_13643.txt	SGNews/Asia_13573.txt	
 13234	SGNews/Asia_12266.txt	SGNews/Asia_13339.txt	SGNews/Asia_13590.txt	SGNews/Asia_11389.txt	SGNews/Asia_11505.txt	SGNews/Asia_12504.txt	SGNews/Asia_11791.txt	SGNews/Asia_12243.txt	SGNews/Asia_12412.txt	SGNews/Asia_10043.txt
 30032	SGNews/Asia_11707.txt	SGNews/Asia_11478.txt	SGNews/Asia_12510.txt	SGNews/Asia_10789.txt	SGNews/Asia_13589.txt	SGNews/Asia_10048.txt	SGNews/Asia_10151.txt	SGNews/Asia_10198.txt	SGNews/Asia_12353.txt	SGNews/Asia_14038.txt
 30903	SGNews/Asia_10645.txt	SGNews/Asia_12330.txt	SGNews/Asia_12127.txt	SGNews/Asia_10904.txt	SGNews/Asia_11083.txt	SGNews/Asia_11122.txt	SGNews/Asia_11063.txt	SGNews/Asia_10658.txt	SGNews/Asia_13746.txt	SGNews/Asia_10634.txt
@@ -1792,7 +1792,7 @@ Primary_User	Article1	Article2	Article3	Article4	Article5	Article6	Article7	Arti
 38966	SGNews/Asia_11559.txt	SGNews/Asia_13069.txt	SGNews/Asia_10505.txt	SGNews/Asia_13554.txt	SGNews/Asia_13246.txt	SGNews/Asia_10659.txt	SGNews/Asia_10146.txt	SGNews/Asia_12134.txt	SGNews/Asia_10150.txt	SGNews/Asia_10376.txt
 38984	SGNews/Asia_11763.txt	SGNews/Asia_11126.txt	SGNews/Asia_13658.txt	SGNews/Asia_10326.txt	SGNews/Asia_10108.txt	SGNews/Asia_13574.txt	SGNews/Asia_13708.txt	SGNews/Asia_13336.txt	SGNews/Asia_13972.txt	SGNews/Asia_10508.txt
 39072	SGNews/Asia_11763.txt	SGNews/Asia_10326.txt	SGNews/Asia_13712.txt	SGNews/Asia_13072.txt	SGNews/Asia_13229.txt	SGNews/Asia_13991.txt	SGNews/Asia_11394.txt	SGNews/Asia_13345.txt	SGNews/Asia_13962.txt	SGNews/Asia_10751.txt
-39195	SGNews/Asia_10005.txt
+39195	SGNews/Asia_10005.txt									
 39235	SGNews/Asia_12792.txt	SGNews/Asia_10910.txt	SGNews/Asia_11984.txt	SGNews/Asia_11049.txt	SGNews/Asia_12328.txt	SGNews/Asia_10678.txt	SGNews/Asia_10485.txt	SGNews/Asia_10360.txt	SGNews/Asia_13743.txt	SGNews/Asia_13225.txt
 6025	SGNews/Asia_11707.txt	SGNews/Asia_10210.txt	SGNews/Asia_12689.txt	SGNews/Asia_11051.txt	SGNews/Asia_10910.txt	SGNews/Asia_13927.txt	SGNews/Asia_13884.txt	SGNews/Asia_11211.txt	SGNews/Asia_12287.txt	SGNews/Asia_13930.txt
 39844	SGNews/Asia_12595.txt	SGNews/Asia_12179.txt	SGNews/Asia_11437.txt	SGNews/Asia_10259.txt	SGNews/Asia_10508.txt	SGNews/Asia_10302.txt	SGNews/Asia_10101.txt	SGNews/Asia_10292.txt	SGNews/Asia_10068.txt	SGNews/Asia_10660.txt
@@ -2032,10 +2032,10 @@ Primary_User	Article1	Article2	Article3	Article4	Article5	Article6	Article7	Arti
 49923	SGNews/Asia_11707.txt	SGNews/Asia_12791.txt	SGNews/Asia_10789.txt	SGNews/Asia_13059.txt	SGNews/Asia_10505.txt	SGNews/Asia_13588.txt	SGNews/Asia_13320.txt	SGNews/Asia_13384.txt	SGNews/Asia_10699.txt	SGNews/Asia_12503.txt
 48884	SGNews/Asia_11707.txt	SGNews/Asia_10083.txt	SGNews/Asia_10151.txt	SGNews/Asia_10198.txt	SGNews/Asia_11396.txt	SGNews/Asia_13888.txt	SGNews/Asia_13588.txt	SGNews/Asia_11466.txt	SGNews/Asia_10763.txt	SGNews/Asia_10785.txt
 48170	SGNews/Asia_11080.txt	SGNews/Asia_11980.txt	SGNews/Asia_11477.txt	SGNews/Asia_11507.txt	SGNews/Asia_13713.txt	SGNews/Asia_13102.txt	SGNews/Asia_10241.txt	SGNews/Asia_13500.txt	SGNews/Asia_11763.txt	SGNews/Asia_11527.txt
-21941	SGNews/Asia_10005.txt
+21941	SGNews/Asia_10005.txt									
 48764	SGNews/Asia_13021.txt	SGNews/Asia_13766.txt	SGNews/Asia_10150.txt	SGNews/Asia_12962.txt	SGNews/Asia_13574.txt	SGNews/Asia_13022.txt	SGNews/Asia_12452.txt	SGNews/Asia_12707.txt	SGNews/Asia_10362.txt	SGNews/Asia_10014.txt
 48897	SGNews/Asia_10083.txt	SGNews/Asia_11086.txt	SGNews/Asia_12881.txt	SGNews/Asia_12301.txt	SGNews/Asia_11688.txt	SGNews/Asia_13044.txt	SGNews/Asia_10765.txt	SGNews/Asia_11395.txt	SGNews/Asia_11137.txt	SGNews/Asia_13069.txt
-10206	SGNews/Asia_10857.txt	SGNews/Asia_12730.txt	SGNews/Asia_13384.txt	SGNews/Asia_13518.txt	SGNews/Asia_13887.txt	SGNews/Asia_12070.txt	SGNews/Asia_13574.txt	SGNews/Asia_12078.txt	SGNews/Asia_11969.txt
+10206	SGNews/Asia_10857.txt	SGNews/Asia_12730.txt	SGNews/Asia_13384.txt	SGNews/Asia_13518.txt	SGNews/Asia_13887.txt	SGNews/Asia_12070.txt	SGNews/Asia_13574.txt	SGNews/Asia_12078.txt	SGNews/Asia_11969.txt	
 49001	SGNews/Asia_13971.txt	SGNews/Asia_13184.txt	SGNews/Asia_10152.txt	SGNews/Asia_10199.txt	SGNews/Asia_10048.txt	SGNews/Asia_10291.txt	SGNews/Asia_11981.txt	SGNews/Asia_12636.txt	SGNews/Asia_12078.txt	SGNews/Asia_11848.txt
 10224	SGNews/Asia_13342.txt	SGNews/Asia_10446.txt	SGNews/Asia_12264.txt	SGNews/Asia_11153.txt	SGNews/Asia_10302.txt	SGNews/Asia_13723.txt	SGNews/Asia_10048.txt	SGNews/Asia_14153.txt	SGNews/Asia_10146.txt	SGNews/Asia_12636.txt
 43612	SGNews/Asia_12366.txt	SGNews/Asia_12411.txt	SGNews/Asia_12786.txt	SGNews/Asia_11557.txt	SGNews/Asia_11174.txt	SGNews/Asia_12954.txt	SGNews/Asia_13275.txt	SGNews/Asia_11477.txt	SGNews/Asia_12009.txt	SGNews/Asia_13239.txt
@@ -2082,7 +2082,7 @@ Primary_User	Article1	Article2	Article3	Article4	Article5	Article6	Article7	Arti
 49247	SGNews/Asia_13366.txt	SGNews/Asia_13971.txt	SGNews/Asia_11533.txt	SGNews/Asia_13815.txt	SGNews/Asia_13518.txt	SGNews/Asia_13337.txt	SGNews/Asia_13426.txt	SGNews/Asia_12155.txt	SGNews/Asia_12350.txt	SGNews/Asia_11506.txt
 4679	SGNews/Asia_11707.txt	SGNews/Asia_10083.txt	SGNews/Asia_13247.txt	SGNews/Asia_11477.txt	SGNews/Asia_13973.txt	SGNews/Asia_10788.txt	SGNews/Asia_10643.txt	SGNews/Asia_10155.txt	SGNews/Asia_12895.txt	SGNews/Asia_10672.txt
 31501	SGNews/Asia_12691.txt	SGNews/Asia_10911.txt	SGNews/Asia_11706.txt	SGNews/Asia_13707.txt	SGNews/Asia_12177.txt	SGNews/Asia_13884.txt	SGNews/Asia_11862.txt	SGNews/Asia_13573.txt	SGNews/Asia_11236.txt	SGNews/Asia_11174.txt
-43548	SGNews/Asia_14072.txt	SGNews/Asia_12977.txt	SGNews/Asia_10446.txt	SGNews/Asia_12349.txt	SGNews/Asia_10005.txt
+43548	SGNews/Asia_14072.txt	SGNews/Asia_12977.txt	SGNews/Asia_10446.txt	SGNews/Asia_12349.txt	SGNews/Asia_10005.txt					
 49639	SGNews/Asia_12596.txt	SGNews/Asia_11707.txt	SGNews/Asia_10083.txt	SGNews/Asia_13590.txt	SGNews/Asia_13337.txt	SGNews/Asia_11153.txt	SGNews/Asia_12244.txt	SGNews/Asia_12511.txt	SGNews/Asia_12503.txt	SGNews/Asia_13714.txt
 38438	SGNews/Asia_11394.txt	SGNews/Asia_10981.txt	SGNews/Asia_13930.txt	SGNews/Asia_12791.txt	SGNews/Asia_13026.txt	SGNews/Asia_10083.txt	SGNews/Asia_13404.txt	SGNews/Asia_11687.txt	SGNews/Asia_11863.txt	SGNews/Asia_11940.txt
 48030	SGNews/Asia_10361.txt	SGNews/Asia_13392.txt	SGNews/Asia_11706.txt	SGNews/Asia_12367.txt	SGNews/Asia_13501.txt	SGNews/Asia_13574.txt	SGNews/Asia_13337.txt	SGNews/Asia_12177.txt	SGNews/Asia_13745.txt	SGNews/Asia_10083.txt
@@ -2157,7 +2157,7 @@ Primary_User	Article1	Article2	Article3	Article4	Article5	Article6	Article7	Arti
 53858	SGNews/Asia_10083.txt	SGNews/Asia_11863.txt	SGNews/Asia_10659.txt	SGNews/Asia_10277.txt	SGNews/Asia_10782.txt	SGNews/Asia_11052.txt	SGNews/Asia_12243.txt	SGNews/Asia_11554.txt	SGNews/Asia_10376.txt	SGNews/Asia_13743.txt
 56058	SGNews/Asia_11980.txt	SGNews/Asia_13383.txt	SGNews/Asia_11442.txt	SGNews/Asia_12689.txt	SGNews/Asia_10911.txt	SGNews/Asia_12976.txt	SGNews/Asia_13749.txt	SGNews/Asia_12243.txt	SGNews/Asia_10068.txt	SGNews/Asia_10609.txt
 55628	SGNews/Asia_13042.txt	SGNews/Asia_12950.txt	SGNews/Asia_12828.txt	SGNews/Asia_13799.txt	SGNews/Asia_12873.txt	SGNews/Asia_13603.txt	SGNews/Asia_10834.txt	SGNews/Asia_12125.txt	SGNews/Asia_13590.txt	SGNews/Asia_13540.txt
-56480	SGNews/Asia_12515.txt	SGNews/Asia_13752.txt	SGNews/Asia_13929.txt	SGNews/Asia_10392.txt	SGNews/Asia_10785.txt	SGNews/Asia_13021.txt	SGNews/Asia_13575.txt	SGNews/Asia_12856.txt	SGNews/Asia_12960.txt
+56480	SGNews/Asia_12515.txt	SGNews/Asia_13752.txt	SGNews/Asia_13929.txt	SGNews/Asia_10392.txt	SGNews/Asia_10785.txt	SGNews/Asia_13021.txt	SGNews/Asia_13575.txt	SGNews/Asia_12856.txt	SGNews/Asia_12960.txt	
 55180	SGNews/Asia_12264.txt	SGNews/Asia_11580.txt	SGNews/Asia_11772.txt	SGNews/Asia_10326.txt	SGNews/Asia_12894.txt	SGNews/Asia_11465.txt	SGNews/Asia_11396.txt	SGNews/Asia_11303.txt	SGNews/Asia_12503.txt	SGNews/Asia_10985.txt
 26372	SGNews/Asia_12087.txt	SGNews/Asia_13020.txt	SGNews/Asia_13752.txt	SGNews/Asia_13023.txt	SGNews/Asia_12514.txt	SGNews/Asia_13573.txt	SGNews/Asia_11707.txt	SGNews/Asia_11464.txt	SGNews/Asia_11396.txt	SGNews/Asia_10710.txt
 51355	SGNews/Asia_12962.txt	SGNews/Asia_13988.txt	SGNews/Asia_10445.txt	SGNews/Asia_12059.txt	SGNews/Asia_13339.txt	SGNews/Asia_10195.txt	SGNews/Asia_13720.txt	SGNews/Asia_12976.txt	SGNews/Asia_13573.txt	SGNews/Asia_12244.txt
@@ -2271,7 +2271,7 @@ Primary_User	Article1	Article2	Article3	Article4	Article5	Article6	Article7	Arti
 56694	SGNews/Asia_13184.txt	SGNews/Asia_11980.txt	SGNews/Asia_11065.txt	SGNews/Asia_12267.txt	SGNews/Asia_14072.txt	SGNews/Asia_10833.txt	SGNews/Asia_13961.txt	SGNews/Asia_10049.txt	SGNews/Asia_13656.txt	SGNews/Asia_10788.txt
 58781	SGNews/Asia_14168.txt	SGNews/Asia_11980.txt	SGNews/Asia_13239.txt	SGNews/Asia_13241.txt	SGNews/Asia_12369.txt	SGNews/Asia_13708.txt	SGNews/Asia_10634.txt	SGNews/Asia_13989.txt	SGNews/Asia_13214.txt	SGNews/Asia_10610.txt
 10616	SGNews/Asia_10909.txt	SGNews/Asia_12047.txt	SGNews/Asia_11774.txt	SGNews/Asia_10288.txt	SGNews/Asia_11463.txt	SGNews/Asia_11980.txt	SGNews/Asia_10644.txt	SGNews/Asia_12827.txt	SGNews/Asia_13088.txt	SGNews/Asia_10152.txt
-56414	SGNews/Asia_10005.txt
+56414	SGNews/Asia_10005.txt									
 58701	SGNews/Asia_10649.txt	SGNews/Asia_11968.txt	SGNews/Asia_13160.txt	SGNews/Asia_11063.txt	SGNews/Asia_11611.txt	SGNews/Asia_13750.txt	SGNews/Asia_13337.txt	SGNews/Asia_13023.txt	SGNews/Asia_13340.txt	SGNews/Asia_10288.txt
 29516	SGNews/Asia_13021.txt	SGNews/Asia_13766.txt	SGNews/Asia_13024.txt	SGNews/Asia_13575.txt	SGNews/Asia_13380.txt	SGNews/Asia_12515.txt	SGNews/Asia_13923.txt	SGNews/Asia_11466.txt	SGNews/Asia_10673.txt	SGNews/Asia_10392.txt
 25474	SGNews/Asia_10152.txt	SGNews/Asia_10199.txt	SGNews/Asia_11463.txt	SGNews/Asia_12141.txt	SGNews/Asia_10048.txt	SGNews/Asia_10148.txt	SGNews/Asia_10612.txt	SGNews/Asia_10394.txt	SGNews/Asia_12213.txt	SGNews/Asia_12975.txt
@@ -2329,7 +2329,7 @@ Primary_User	Article1	Article2	Article3	Article4	Article5	Article6	Article7	Arti
 56394	SGNews/Asia_13924.txt	SGNews/Asia_12159.txt	SGNews/Asia_13766.txt	SGNews/Asia_12514.txt	SGNews/Asia_11085.txt	SGNews/Asia_10908.txt	SGNews/Asia_11954.txt	SGNews/Asia_12313.txt	SGNews/Asia_10580.txt	SGNews/Asia_11687.txt
 61715	SGNews/Asia_11559.txt	SGNews/Asia_11706.txt	SGNews/Asia_13247.txt	SGNews/Asia_11172.txt	SGNews/Asia_11631.txt	SGNews/Asia_10785.txt	SGNews/Asia_13961.txt	SGNews/Asia_12955.txt	SGNews/Asia_10083.txt	SGNews/Asia_13308.txt
 1735	SGNews/Asia_12159.txt	SGNews/Asia_13686.txt	SGNews/Asia_14146.txt	SGNews/Asia_12568.txt	SGNews/Asia_10149.txt	SGNews/Asia_12243.txt	SGNews/Asia_10910.txt	SGNews/Asia_13988.txt	SGNews/Asia_13618.txt	SGNews/Asia_10358.txt
-61651	SGNews/Asia_10005.txt
+61651	SGNews/Asia_10005.txt									
 5050	SGNews/Asia_10195.txt	SGNews/Asia_13988.txt	SGNews/Asia_12961.txt	SGNews/Asia_13803.txt	SGNews/Asia_11527.txt	SGNews/Asia_11688.txt	SGNews/Asia_13971.txt	SGNews/Asia_12584.txt	SGNews/Asia_12955.txt	SGNews/Asia_12421.txt
 61987	SGNews/Asia_10911.txt	SGNews/Asia_13219.txt	SGNews/Asia_12690.txt	SGNews/Asia_13886.txt	SGNews/Asia_13501.txt	SGNews/Asia_12069.txt	SGNews/Asia_10083.txt	SGNews/Asia_10699.txt	SGNews/Asia_12013.txt	SGNews/Asia_13685.txt
 74322	SGNews/Asia_10083.txt	SGNews/Asia_11706.txt	SGNews/Asia_11505.txt	SGNews/Asia_13657.txt	SGNews/Asia_12580.txt	SGNews/Asia_10636.txt	SGNews/Asia_11053.txt	SGNews/Asia_13748.txt	SGNews/Asia_12828.txt	SGNews/Asia_11841.txt
@@ -2373,7 +2373,7 @@ Primary_User	Article1	Article2	Article3	Article4	Article5	Article6	Article7	Arti
 10048	SGNews/Asia_12105.txt	SGNews/Asia_10015.txt	SGNews/Asia_12705.txt	SGNews/Asia_11390.txt	SGNews/Asia_11086.txt	SGNews/Asia_13157.txt	SGNews/Asia_13185.txt	SGNews/Asia_13900.txt	SGNews/Asia_13280.txt	SGNews/Asia_10241.txt
 6150	SGNews/Asia_11707.txt	SGNews/Asia_13872.txt	SGNews/Asia_14153.txt	SGNews/Asia_12073.txt	SGNews/Asia_11238.txt	SGNews/Asia_13473.txt	SGNews/Asia_10984.txt	SGNews/Asia_14171.txt	SGNews/Asia_13059.txt	SGNews/Asia_13320.txt
 63994	SGNews/Asia_10434.txt	SGNews/Asia_10083.txt	SGNews/Asia_10791.txt	SGNews/Asia_14149.txt	SGNews/Asia_13379.txt	SGNews/Asia_11687.txt	SGNews/Asia_13166.txt	SGNews/Asia_13992.txt	SGNews/Asia_13802.txt	SGNews/Asia_10377.txt
-40018	SGNews/Asia_11084.txt	SGNews/Asia_11706.txt	SGNews/Asia_11848.txt	SGNews/Asia_12792.txt	SGNews/Asia_12125.txt	SGNews/Asia_10108.txt	SGNews/Asia_13243.txt	SGNews/Asia_11355.txt	SGNews/Asia_11906.txt
+40018	SGNews/Asia_11084.txt	SGNews/Asia_11706.txt	SGNews/Asia_11848.txt	SGNews/Asia_12792.txt	SGNews/Asia_12125.txt	SGNews/Asia_10108.txt	SGNews/Asia_13243.txt	SGNews/Asia_11355.txt	SGNews/Asia_11906.txt	
 64250	SGNews/Asia_13042.txt	SGNews/Asia_12828.txt	SGNews/Asia_10083.txt	SGNews/Asia_13320.txt	SGNews/Asia_13963.txt	SGNews/Asia_13430.txt	SGNews/Asia_13555.txt	SGNews/Asia_11706.txt	SGNews/Asia_13573.txt	SGNews/Asia_13589.txt
 9958	SGNews/Asia_13090.txt	SGNews/Asia_14146.txt	SGNews/Asia_13592.txt	SGNews/Asia_11080.txt	SGNews/Asia_13156.txt	SGNews/Asia_11612.txt	SGNews/Asia_10660.txt	SGNews/Asia_10121.txt	SGNews/Asia_11506.txt	SGNews/Asia_11034.txt
 64299	SGNews/Asia_13241.txt	SGNews/Asia_11755.txt	SGNews/Asia_11942.txt	SGNews/Asia_11589.txt	SGNews/Asia_13281.txt	SGNews/Asia_11849.txt	SGNews/Asia_13573.txt	SGNews/Asia_14090.txt	SGNews/Asia_11611.txt	SGNews/Asia_13158.txt
@@ -2573,7 +2573,7 @@ Primary_User	Article1	Article2	Article3	Article4	Article5	Article6	Article7	Arti
 31281	SGNews/Asia_10909.txt	SGNews/Asia_10151.txt	SGNews/Asia_11177.txt	SGNews/Asia_12328.txt	SGNews/Asia_12312.txt	SGNews/Asia_11656.txt	SGNews/Asia_13923.txt	SGNews/Asia_12012.txt	SGNews/Asia_12154.txt	SGNews/Asia_12611.txt
 85159	SGNews/Asia_12329.txt	SGNews/Asia_12857.txt	SGNews/Asia_10909.txt	SGNews/Asia_11464.txt	SGNews/Asia_11125.txt	SGNews/Asia_13476.txt	SGNews/Asia_10783.txt	SGNews/Asia_11764.txt	SGNews/Asia_13987.txt	SGNews/Asia_14149.txt
 79270	SGNews/Asia_13217.txt	SGNews/Asia_13313.txt	SGNews/Asia_13184.txt	SGNews/Asia_11533.txt	SGNews/Asia_12511.txt	SGNews/Asia_12690.txt	SGNews/Asia_14073.txt	SGNews/Asia_13474.txt	SGNews/Asia_13839.txt	SGNews/Asia_11526.txt
-84852	SGNews/Asia_10005.txt
+84852	SGNews/Asia_10005.txt									
 86347	SGNews/Asia_12730.txt	SGNews/Asia_12858.txt	SGNews/Asia_12975.txt	SGNews/Asia_11793.txt	SGNews/Asia_14079.txt	SGNews/Asia_12298.txt	SGNews/Asia_13803.txt	SGNews/Asia_13247.txt	SGNews/Asia_10199.txt	SGNews/Asia_10507.txt
 77113	SGNews/Asia_11793.txt	SGNews/Asia_11557.txt	SGNews/Asia_12593.txt	SGNews/Asia_10121.txt	SGNews/Asia_13980.txt	SGNews/Asia_13474.txt	SGNews/Asia_13929.txt	SGNews/Asia_13575.txt	SGNews/Asia_13320.txt	SGNews/Asia_11436.txt
 85905	SGNews/Asia_13669.txt	SGNews/Asia_11813.txt	SGNews/Asia_11506.txt	SGNews/Asia_13187.txt	SGNews/Asia_10048.txt	SGNews/Asia_13991.txt	SGNews/Asia_10228.txt	SGNews/Asia_11053.txt	SGNews/Asia_10241.txt	SGNews/Asia_12047.txt
@@ -2668,7 +2668,7 @@ Primary_User	Article1	Article2	Article3	Article4	Article5	Article6	Article7	Arti
 11772	SGNews/Asia_12138.txt	SGNews/Asia_12021.txt	SGNews/Asia_12312.txt	SGNews/Asia_11211.txt	SGNews/Asia_11612.txt	SGNews/Asia_12829.txt	SGNews/Asia_12037.txt	SGNews/Asia_13588.txt	SGNews/Asia_11065.txt	SGNews/Asia_11614.txt
 101194	SGNews/Asia_10083.txt	SGNews/Asia_11706.txt	SGNews/Asia_11764.txt	SGNews/Asia_11570.txt	SGNews/Asia_12243.txt	SGNews/Asia_12510.txt	SGNews/Asia_10325.txt	SGNews/Asia_10764.txt	SGNews/Asia_11394.txt	SGNews/Asia_13103.txt
 101396	SGNews/Asia_13020.txt	SGNews/Asia_10109.txt	SGNews/Asia_10100.txt	SGNews/Asia_14145.txt	SGNews/Asia_12828.txt	SGNews/Asia_13340.txt	SGNews/Asia_12139.txt	SGNews/Asia_14144.txt	SGNews/Asia_10364.txt	SGNews/Asia_11459.txt
-101380	SGNews/Asia_10005.txt
+101380	SGNews/Asia_10005.txt									
 102079	SGNews/Asia_13184.txt	SGNews/Asia_12844.txt	SGNews/Asia_11707.txt	SGNews/Asia_11506.txt	SGNews/Asia_12631.txt	SGNews/Asia_13275.txt	SGNews/Asia_11791.txt	SGNews/Asia_10083.txt	SGNews/Asia_13191.txt	SGNews/Asia_13555.txt
 102420	SGNews/Asia_11235.txt	SGNews/Asia_11228.txt	SGNews/Asia_11442.txt	SGNews/Asia_11389.txt	SGNews/Asia_11970.txt	SGNews/Asia_13962.txt	SGNews/Asia_10789.txt	SGNews/Asia_14038.txt	SGNews/Asia_13019.txt	SGNews/Asia_11463.txt
 102269	SGNews/Asia_11985.txt	SGNews/Asia_13166.txt	SGNews/Asia_12287.txt	SGNews/Asia_12313.txt	SGNews/Asia_13981.txt	SGNews/Asia_12081.txt	SGNews/Asia_12977.txt	SGNews/Asia_12156.txt	SGNews/Asia_13320.txt	SGNews/Asia_11437.txt
@@ -2732,7 +2732,7 @@ Primary_User	Article1	Article2	Article3	Article4	Article5	Article6	Article7	Arti
 135405	SGNews/Asia_13872.txt	SGNews/Asia_10048.txt	SGNews/Asia_11506.txt	SGNews/Asia_13189.txt	SGNews/Asia_13339.txt	SGNews/Asia_12858.txt	SGNews/Asia_13461.txt	SGNews/Asia_11708.txt	SGNews/Asia_13557.txt	SGNews/Asia_12504.txt
 136592	SGNews/Asia_12792.txt	SGNews/Asia_11710.txt	SGNews/Asia_11478.txt	SGNews/Asia_10789.txt	SGNews/Asia_13191.txt	SGNews/Asia_11971.txt	SGNews/Asia_10908.txt	SGNews/Asia_10048.txt	SGNews/Asia_11686.txt	SGNews/Asia_10659.txt
 142710	SGNews/Asia_11811.txt	SGNews/Asia_12354.txt	SGNews/Asia_13088.txt	SGNews/Asia_12515.txt	SGNews/Asia_10152.txt	SGNews/Asia_10199.txt	SGNews/Asia_11463.txt	SGNews/Asia_11935.txt	SGNews/Asia_11467.txt	SGNews/Asia_10484.txt
-149224	SGNews/Asia_10005.txt
+149224	SGNews/Asia_10005.txt									
 81562	SGNews/Asia_12704.txt	SGNews/Asia_11085.txt	SGNews/Asia_10361.txt	SGNews/Asia_14172.txt	SGNews/Asia_13074.txt	SGNews/Asia_10791.txt	SGNews/Asia_13898.txt	SGNews/Asia_12212.txt	SGNews/Asia_10580.txt	SGNews/Asia_12691.txt
 149830	SGNews/Asia_12950.txt	SGNews/Asia_13799.txt	SGNews/Asia_10524.txt	SGNews/Asia_12872.txt	SGNews/Asia_12125.txt	SGNews/Asia_13767.txt	SGNews/Asia_13596.txt	SGNews/Asia_13037.txt	SGNews/Asia_13594.txt	SGNews/Asia_13026.txt
 152427	SGNews/Asia_12704.txt	SGNews/Asia_12664.txt	SGNews/Asia_13160.txt	SGNews/Asia_12329.txt	SGNews/Asia_11463.txt	SGNews/Asia_10909.txt	SGNews/Asia_11125.txt	SGNews/Asia_11953.txt	SGNews/Asia_10660.txt	SGNews/Asia_11631.txt
@@ -2751,7 +2751,7 @@ Primary_User	Article1	Article2	Article3	Article4	Article5	Article6	Article7	Arti
 21172	SGNews/Asia_10761.txt	SGNews/Asia_10434.txt	SGNews/Asia_10048.txt	SGNews/Asia_11004.txt	SGNews/Asia_12844.txt	SGNews/Asia_13906.txt	SGNews/Asia_10043.txt	SGNews/Asia_13724.txt	SGNews/Asia_12791.txt	SGNews/Asia_12707.txt
 117820	SGNews/Asia_12504.txt	SGNews/Asia_10789.txt	SGNews/Asia_10856.txt	SGNews/Asia_12267.txt	SGNews/Asia_11676.txt	SGNews/Asia_10242.txt	SGNews/Asia_12566.txt	SGNews/Asia_10109.txt	SGNews/Asia_10100.txt	SGNews/Asia_10681.txt
 111490	SGNews/Asia_12857.txt	SGNews/Asia_10566.txt	SGNews/Asia_11656.txt	SGNews/Asia_12744.txt	SGNews/Asia_11906.txt	SGNews/Asia_10674.txt	SGNews/Asia_11984.txt	SGNews/Asia_14074.txt	SGNews/Asia_10636.txt	SGNews/Asia_10108.txt
-30811	SGNews/Asia_10005.txt
+30811	SGNews/Asia_10005.txt									
 12787	SGNews/Asia_11745.txt	SGNews/Asia_11985.txt	SGNews/Asia_13089.txt	SGNews/Asia_10506.txt	SGNews/Asia_12038.txt	SGNews/Asia_11791.txt	SGNews/Asia_10445.txt	SGNews/Asia_11558.txt	SGNews/Asia_10082.txt	SGNews/Asia_10904.txt
 116912	SGNews/Asia_13312.txt	SGNews/Asia_11982.txt	SGNews/Asia_13591.txt	SGNews/Asia_11676.txt	SGNews/Asia_11983.txt	SGNews/Asia_10363.txt	SGNews/Asia_10122.txt	SGNews/Asia_12941.txt	SGNews/Asia_13964.txt	SGNews/Asia_12975.txt
 122695	SGNews/Asia_10710.txt	SGNews/Asia_10645.txt	SGNews/Asia_12329.txt	SGNews/Asia_12126.txt	SGNews/Asia_12824.txt	SGNews/Asia_13302.txt	SGNews/Asia_11063.txt	SGNews/Asia_10041.txt	SGNews/Asia_13025.txt	SGNews/Asia_11465.txt
@@ -2760,13 +2760,13 @@ Primary_User	Article1	Article2	Article3	Article4	Article5	Article6	Article7	Arti
 122855	SGNews/Asia_13366.txt	SGNews/Asia_11065.txt	SGNews/Asia_11707.txt	SGNews/Asia_13819.txt	SGNews/Asia_13077.txt	SGNews/Asia_11036.txt	SGNews/Asia_13245.txt	SGNews/Asia_11209.txt	SGNews/Asia_12636.txt	SGNews/Asia_10258.txt
 122865	SGNews/Asia_10911.txt	SGNews/Asia_13643.txt	SGNews/Asia_10149.txt	SGNews/Asia_13656.txt	SGNews/Asia_14144.txt	SGNews/Asia_12705.txt	SGNews/Asia_12514.txt	SGNews/Asia_12564.txt	SGNews/Asia_14039.txt	SGNews/Asia_13925.txt
 123895	SGNews/Asia_10124.txt	SGNews/Asia_13658.txt	SGNews/Asia_10765.txt	SGNews/Asia_11152.txt	SGNews/Asia_12856.txt	SGNews/Asia_12073.txt	SGNews/Asia_11396.txt	SGNews/Asia_12825.txt	SGNews/Asia_12510.txt	SGNews/Asia_11240.txt
-123953	SGNews/Asia_10005.txt
+123953	SGNews/Asia_10005.txt									
 124425	SGNews/Asia_12691.txt	SGNews/Asia_10127.txt	SGNews/Asia_11813.txt	SGNews/Asia_11954.txt	SGNews/Asia_13245.txt	SGNews/Asia_11051.txt	SGNews/Asia_10325.txt	SGNews/Asia_12561.txt	SGNews/Asia_11305.txt	SGNews/Asia_10909.txt
 124549	SGNews/Asia_13668.txt	SGNews/Asia_12952.txt	SGNews/Asia_12858.txt	SGNews/Asia_13274.txt	SGNews/Asia_13275.txt	SGNews/Asia_13219.txt	SGNews/Asia_12302.txt	SGNews/Asia_11348.txt	SGNews/Asia_10149.txt	SGNews/Asia_13025.txt
 124597	SGNews/Asia_11707.txt	SGNews/Asia_10152.txt	SGNews/Asia_10199.txt	SGNews/Asia_12300.txt	SGNews/Asia_12898.txt	SGNews/Asia_13034.txt	SGNews/Asia_13595.txt	SGNews/Asia_11790.txt	SGNews/Asia_12704.txt	SGNews/Asia_10782.txt
 124796	SGNews/Asia_12595.txt	SGNews/Asia_12179.txt	SGNews/Asia_10152.txt	SGNews/Asia_10199.txt	SGNews/Asia_11531.txt	SGNews/Asia_14102.txt	SGNews/Asia_12503.txt	SGNews/Asia_13089.txt	SGNews/Asia_13059.txt	SGNews/Asia_13814.txt
 10173	SGNews/Asia_12141.txt	SGNews/Asia_11310.txt	SGNews/Asia_11443.txt	SGNews/Asia_11153.txt	SGNews/Asia_13803.txt	SGNews/Asia_13888.txt	SGNews/Asia_11121.txt	SGNews/Asia_13603.txt	SGNews/Asia_11034.txt	SGNews/Asia_12581.txt
-48772	SGNews/Asia_12266.txt	SGNews/Asia_10859.txt	SGNews/Asia_13589.txt	SGNews/Asia_13820.txt	SGNews/Asia_11437.txt	SGNews/Asia_10090.txt	SGNews/Asia_11554.txt	SGNews/Asia_10788.txt	SGNews/Asia_13339.txt
+48772	SGNews/Asia_12266.txt	SGNews/Asia_10859.txt	SGNews/Asia_13589.txt	SGNews/Asia_13820.txt	SGNews/Asia_11437.txt	SGNews/Asia_10090.txt	SGNews/Asia_11554.txt	SGNews/Asia_10788.txt	SGNews/Asia_13339.txt	
 125808	SGNews/Asia_11465.txt	SGNews/Asia_13166.txt	SGNews/Asia_11774.txt	SGNews/Asia_10359.txt	SGNews/Asia_11125.txt	SGNews/Asia_13654.txt	SGNews/Asia_11176.txt	SGNews/Asia_12628.txt	SGNews/Asia_10199.txt	SGNews/Asia_10506.txt
 104016	SGNews/Asia_11748.txt	SGNews/Asia_11592.txt	SGNews/Asia_11036.txt	SGNews/Asia_10363.txt	SGNews/Asia_11687.txt	SGNews/Asia_11442.txt	SGNews/Asia_11557.txt	SGNews/Asia_11863.txt	SGNews/Asia_12287.txt	SGNews/Asia_12453.txt
 135794	SGNews/Asia_11985.txt	SGNews/Asia_12857.txt	SGNews/Asia_11085.txt	SGNews/Asia_10504.txt	SGNews/Asia_12977.txt	SGNews/Asia_11688.txt	SGNews/Asia_12154.txt	SGNews/Asia_12300.txt	SGNews/Asia_12584.txt	SGNews/Asia_12611.txt
