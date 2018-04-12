@@ -88,8 +88,10 @@
     </div>
 </div>
 <div id="divNewUsers" style="padding-top:30px;display:none;">
-    <div style="width:40%; float:left; border-right: solid 1px Black;margin-left:10%;" >    
-        <h4>Please choose the topics you are interested in:</h4>
+    <div style="padding-left:3%;">
+        <h4>Please choose the topics you are interested in (Select at least 2 topics):</h4>
+    </div>
+    <div style="width:40%; float:left; border-right: solid 1px Black;margin-left:10%;" >            
         <table style="width:100%;" id="tblTopics">
             <tr>
                 <td style="width:25%; padding-left:25%;">
@@ -224,7 +226,7 @@
         </table>           
         <div style="padding-top:20px; padding-bottom:100px; float:center; text-align:center;">
             <button type="button" class="btn" style="border:solid 1px Black;" onclick="ClickSubmit()">Submit</button>
-            <button type="button" class="btn" style="border:solid 1px Black;margin-left:5%;" onclick="window.location.reload()">Reset</button>
+            <button type="button" class="btn" style="border:solid 1px Black;margin-left:5%;" onclick="ClickReset()">Reset</button>
         </div>
     </div>
     <div id="divNewUserHeader" style="float:left;padding-left:5%;display:none;">
@@ -292,7 +294,7 @@ d3.tsv("https://raw.githubusercontent.com/angad-sr/Text-Analytics/master/data/ou
     topic_index = 0;
     data.forEach(function(d) {         
         topic_doc_list = [];
-        for (var i = 1; i < Object.keys(d).length; i++) {
+        for (var i = 0; i < Object.keys(d).length; i++) {
             if (d[i] != null)
                 topic_doc_list.push(d[i]);            
         }
@@ -360,19 +362,29 @@ function ClickSubmit()
         GenerateNewUserRecommendations(inputVector);
 }
 
+// To reset the output list
+function ClickReset()
+{
+    document.getElementById("divNewUserHeader").style.display = "none";
+    document.getElementById("lstTopicDocuments").innerHTML = "";
+}
+
 // Generate Article recommendations for new users
 function GenerateNewUserRecommendations(topic_indices) {
     document.getElementById("footer").style.display = "none";
     var number_of_docs = 10;
-    var index = 0;
+    var doc_index = 0;
+    iteration_round = 0;
     
     document.getElementById("divNewUserHeader").style.display = "block";
     document.getElementById("lstTopicDocuments").innerHTML = "";
-    while(index < number_of_docs) {
+    while(doc_index < number_of_docs) {
+        
         for (var i = 0; i < topic_indices.length; i++) {
-            document.getElementById("lstTopicDocuments").innerHTML += "<li class='list-group-item' style='width:80%;text-align:center;'><a href='"+ String(articleDir+topic_Dict[index][i]) +"' target='_blank'>Article "+String(index+1)+" ["+ topic_Dict[index][i].substring(0,topic_Dict[index][i].length - 4) +"]</a></li>";
-            index = index + 1;
+            document.getElementById("lstTopicDocuments").innerHTML += "<li class='list-group-item' style='width:80%;text-align:center;'><a href='"+ String(articleDir+topic_Dict[topic_indices[i]][iteration_round]) +"' target='_blank'>Article "+String(doc_index+1)+" ["+ topic_Dict[topic_indices[i]][iteration_round].substring(0,topic_Dict[topic_indices[i]][iteration_round].length - 4) +"]</a></li>";
+            doc_index = doc_index + 1;
         }
+        iteration_round = iteration_round + 1;
     }  
 }
 
