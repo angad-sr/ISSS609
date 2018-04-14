@@ -259,10 +259,10 @@ var userList = {};
 var user_user_Dict = {};
 var user_item_Dict = {};
 var topic_Dict = {}
-var articleDir = "https://raw.githubusercontent.com/angad-sr/ISSS609---Group-2---Text-Analytics/master/Articles/"
+var articleDir = "https://raw.githubusercontent.com/angad-sr/ISSS609/master/Articles/"
 
 // Reading user recommendations for existing users
-d3.tsv("https://raw.githubusercontent.com/angad-sr/Text-Analytics/master/data/output-userSimilarity.tsv", function(error, data) {      
+d3.tsv("https://raw.githubusercontent.com/angad-sr/ISSS609/master/data/output-userSimilarity.tsv", function(error, data) {      
     document.getElementById("divLoader").style.display = "block";
     data.forEach(function(d) {        
         reco_list = [];
@@ -276,7 +276,7 @@ d3.tsv("https://raw.githubusercontent.com/angad-sr/Text-Analytics/master/data/ou
 });
 
 // Reading article recommendations for existing users
-d3.tsv("https://raw.githubusercontent.com/angad-sr/Text-Analytics/master/data/output-userArticleSimilarity.tsv", function(error, data) {      
+d3.tsv("https://raw.githubusercontent.com/angad-sr/ISSS609/master/data/output-userArticleSimilarity.tsv", function(error, data) {      
     document.getElementById("divLoader").style.display = "block";
     data.forEach(function(d) {        
         reco_list = [];
@@ -290,7 +290,7 @@ d3.tsv("https://raw.githubusercontent.com/angad-sr/Text-Analytics/master/data/ou
 });
 
 // 
-d3.tsv("https://raw.githubusercontent.com/angad-sr/Text-Analytics/master/data/output-topic%20results.tsv", function(error, data) {      
+d3.tsv("https://raw.githubusercontent.com/angad-sr/ISSS609/master/data/output-topic%20results.tsv", function(error, data) {      
     document.getElementById("divLoader").style.display = "block";
     topic_index = 0;
     data.forEach(function(d) {         
@@ -308,7 +308,7 @@ d3.tsv("https://raw.githubusercontent.com/angad-sr/Text-Analytics/master/data/ou
 
 
 // Reading existing user master list
-d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS609---Group-2---Text-Analytics/master/data/Users%20Lookup.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/angad-sr/ISSS609/master/data/Users%20Lookup.csv", function(error, data) {
     document.getElementById("divLoader").style.display = "block";
     data.forEach(function(d) {        
         userList[d.UserId] = d.UserName;
